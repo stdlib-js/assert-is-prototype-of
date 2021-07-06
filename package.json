@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-prototype-of",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Test if an object's prototype chain contains a provided prototype.",
   "license": "Apache-2.0",
   "author": {
