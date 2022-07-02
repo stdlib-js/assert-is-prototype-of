@@ -61,7 +61,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.isPrototypeOf;
+})();
 })();
 </script>
 ```
@@ -178,6 +180,7 @@ var bool = isPrototypeOf( bar, Foo.prototype );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-prototype-of@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 function A() {
     return this;
@@ -239,6 +242,7 @@ bool = isPrototypeOf( a, C.prototype );
 bool = isPrototypeOf( a, D.prototype );
 // returns false
 
+})();
 })();
 </script>
 </body>
@@ -334,7 +338,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/get-prototype-of]: https://github.com/stdlib-js/utils-get-prototype-of/tree/umd
+[@stdlib/utils/get-prototype-of]: https://github.com/stdlib-js/utils-get-prototype-of/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
