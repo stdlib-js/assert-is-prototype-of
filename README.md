@@ -30,7 +30,23 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-prototype-of
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
@@ -39,7 +55,7 @@ limitations under the License.
 <!-- eslint-disable stdlib/no-redeclare -->
 
 ```javascript
-import isPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-prototype-of@esm/index.mjs';
+var isPrototypeOf = require( '@stdlib/assert-is-prototype-of' );
 ```
 
 #### isPrototypeOf( obj, prototype )
@@ -49,7 +65,7 @@ Tests if an `object`'s prototype chain contains a provided `prototype`.
 <!-- eslint-disable stdlib/no-redeclare -->
 
 ```javascript
-import inherit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@esm/index.mjs';
+var inherit = require( '@stdlib/utils-inherit' );
 
 function Foo() {
     return this;
@@ -79,7 +95,7 @@ var bool = isPrototypeOf( bar, Foo.prototype );
     <!-- eslint-disable stdlib/no-redeclare -->
 
     ```javascript
-    import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
+    var Number = require( '@stdlib/number-ctor' );
 
     var bool = isPrototypeOf( 5, Number.prototype );
     // returns false
@@ -146,14 +162,9 @@ var bool = isPrototypeOf( bar, Foo.prototype );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import inherit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@esm/index.mjs';
-import isPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-prototype-of@esm/index.mjs';
+```javascript
+var inherit = require( '@stdlib/utils-inherit' );
+var isPrototypeOf = require( '@stdlib/assert-is-prototype-of' );
 
 function A() {
     return this;
@@ -214,10 +225,6 @@ bool = isPrototypeOf( a, C.prototype );
 
 bool = isPrototypeOf( a, D.prototype );
 // returns false
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -247,7 +254,7 @@ bool = isPrototypeOf( a, D.prototype );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -309,7 +316,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/get-prototype-of]: https://github.com/stdlib-js/utils-get-prototype-of/tree/esm
+[@stdlib/utils/get-prototype-of]: https://github.com/stdlib-js/utils-get-prototype-of
 
 <!-- </related-links> -->
 
