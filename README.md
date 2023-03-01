@@ -239,7 +239,7 @@ bool = isPrototypeOf( a, D.prototype );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/get-prototype-of`][@stdlib/utils/get-prototype-of]</span><span class="delimiter">: </span><span class="description">return the prototype of a provided object.</span>
+-   <span class="package-name">[`@stdlib/utils-get-prototype-of`][@stdlib/utils/get-prototype-of]</span><span class="delimiter">: </span><span class="description">return the prototype of a provided object.</span>
 
 </section>
 
