@@ -50,7 +50,7 @@ limitations under the License.
 <!-- eslint-disable stdlib/no-redeclare -->
 
 ```javascript
-import isPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-prototype-of@esm/index.mjs';
+import isPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-prototype-of@v0.2.1-esm/index.mjs';
 ```
 
 #### isPrototypeOf( obj, prototype )
@@ -164,7 +164,7 @@ var bool = isPrototypeOf( bar, Foo.prototype );
 <script type="module">
 
 import inherit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@esm/index.mjs';
-import isPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-prototype-of@esm/index.mjs';
+import isPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-prototype-of@v0.2.1-esm/index.mjs';
 
 function A() {
     return this;
