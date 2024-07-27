@@ -50,6 +50,11 @@ limitations under the License.
 <!-- eslint-disable stdlib/no-redeclare -->
 
 ```javascript
+import isPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-prototype-of@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-prototype-of/tags). For example,
+
+```javascript
 import isPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-prototype-of@v0.2.2-deno/mod.js';
 ```
 
@@ -159,7 +164,7 @@ var bool = isPrototypeOf( bar, Foo.prototype );
 
 ```javascript
 import inherit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherit@deno/mod.js';
-import isPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-prototype-of@v0.2.2-deno/mod.js';
+import isPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-prototype-of@deno/mod.js';
 
 function A() {
     return this;
